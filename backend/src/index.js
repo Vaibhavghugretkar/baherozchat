@@ -21,7 +21,7 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: ["http://localhost:5173",
-      "https://baherozchat.netify.app",
+      "https://baherozchat.netlify.app",
     ],
 
     credentials: true,
